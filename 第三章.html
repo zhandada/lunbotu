@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--第一题-->
+		<script>
+			var a=prompt("请输入一个五位数：");
+			var b=parseInt(a/10000);
+			var c=parseInt(a%10);
+			var d=parseInt(a/1000%10);
+			var e=parseInt(a%100/10);
+			resu=b==c&&d==e?" 是回文数":"不是回文数";
+			alert(resu);
+		</script>
+		<!--第二题-->
+		<script>
+			var score=prompt("请输入学生成绩：");
+ 	  grade= score>80?"该学生的成绩为：A":"该学生的成绩为：B";
+ 	  alert(grade);
+		</script>
+	</body>
+</html>
